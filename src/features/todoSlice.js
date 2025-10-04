@@ -2,11 +2,11 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 const initialState = {
     todos: JSON.parse(localStorage.getItem('todosApp')) || [
-        // {
-        //     id: nanoid(),
-        //     todoText: "",
-        //     status: false
-        // }
+        {
+            id: nanoid(),
+            todoText: "Hello",
+            status: false
+        }
     ]
 }
 
